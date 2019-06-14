@@ -1,0 +1,14 @@
+apiVersion: serving.knative.dev/v1alpha1
+kind: Service
+metadata:
+  name: knapp-test-build
+spec:
+  runLatest:
+    configuration:
+      revisionTemplate:
+        spec:
+          container:
+            image: knapp-test-build
+            imagePullPolicy: Always
+            ports:
+            - containerPort: 3000
