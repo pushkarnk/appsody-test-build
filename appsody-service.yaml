@@ -1,14 +1,14 @@
 apiVersion: serving.knative.dev/v1alpha1
 kind: Service
 metadata:
-  name: knapp-test-build
+  name: appsody-build-test
 spec:
   runLatest:
     configuration:
       revisionTemplate:
         spec:
           container:
-            image: knapp-test-build
-            imagePullPolicy: Always
+            image: dev.local/appsody-build-test
+            imagePullPolicy: Never
             ports:
             - containerPort: 3000

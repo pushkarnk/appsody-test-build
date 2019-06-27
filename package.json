@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "description": "Simple Node.js Express application",
   "license": "Apache-2.0",
+  "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.ibm.com/KnAppPaks/paks.git",
-    "directory": "incubator/nodejs-express/starters/simple"
+    "url": "https://github.com/appsody/stacks.git",
+    "directory": "incubator/nodejs-express/templates/simple"
   },
   "scripts": {
-    "start": "node server.js",
     "test": "mocha"
   },
   "devDependencies": {
