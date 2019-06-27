@@ -1,1 +1,1 @@
-stack: tomleah/nodejs-express-stack:latest
+stack: appsody/nodejs-express:0.2
