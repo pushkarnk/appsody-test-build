@@ -8,7 +8,7 @@ spec:
       revisionTemplate:
         spec:
           container:
-            image: dev.local/appsody-build-test
+            image: localhost:5000/appsody-build-test
             imagePullPolicy: Always
             ports:
             - containerPort: 3000
